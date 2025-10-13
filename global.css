@@ -1,0 +1,20 @@
+
+.barra-superior {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: #009997; 
+    padding: 15px 0;
+    z-index: 1000; 
+
+}
+.barra-superior a {
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    
+}
+
+.barra-superior a:hover {
+    background-color: #ff6262;
+}
