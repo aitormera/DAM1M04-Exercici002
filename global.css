@@ -1,10 +1,9 @@
-/* Estils generals */
+
 body {
   font-family: Arial;
   margin: 0;
 }
 
-/* Barra superior fixa */
 .barra-superior {
   position: fixed;
   top: 0;
@@ -14,25 +13,19 @@ body {
   text-align: center;
   padding: 10px 0;
 }
-
 .barra-superior a {
   color: white;
   text-decoration: none;
   margin: 0 15px;
 }
-
 .barra-superior a:hover {
   text-decoration: underline;
 }
-
-/* Contenidor comú */
 .contenidor {
   max-width: 1100px;
   margin: auto;
   padding: 20px;
 }
-
-/* Peu comú */
 .peu {
   background-color: #2c3e50;
   color: white;
@@ -40,3 +33,5 @@ body {
   padding: 10px;
   margin-top: 40px;
 }
+
+
