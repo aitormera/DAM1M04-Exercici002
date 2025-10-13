@@ -1,4 +1,8 @@
-
+body {
+  margin: 0;
+  background: #c1e0ff;
+  color: #333;
+}
 .barra-superior {
     position: fixed;
     left: 0;
