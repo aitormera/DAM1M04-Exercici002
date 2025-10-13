@@ -3,40 +3,90 @@
 <head>
   <title>Inici</title>
   <link rel="stylesheet" href="global.css">
-  <div class="barra-superior">
-    <div class="contenidor">
-        <a href="index.html">Inici</a>
-        <a href="productes.html">Productes</a>
-        <a href="contacte.html">Contacte</a>
-    </div>
-</div>
+
+  <style>
+    .hero {
+      background-color: #7fbcf9;
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+      margin-top: 50px; 
+    }
+
+    .boto-apuntarse {
+      display: inline-block;
+      background-color: #f1c40f;
+      color: black;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+    }
+    .coleccions {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px;
+    }
+    .coleccio {
+      background-color: #eeeeee;
+      padding: 10px;
+      width: 30%;
+    }
+    .beneficis {
+      display: flex;
+      justify-content: space-evenly;
+      background-color: #ddd;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
-<style>
-
-.hero {
-    background-color: #2c3e50; 
-    color: white;             
-    padding: 80px 0;          
-    text-align: center;       
-}
-
-.contenidor {
-    max-width: 1100px; 
-    margin: auto;     
-    padding: 0 20px;   
-}
-
-</style>
 
 <body>
- <header class="hero">
-        <div class="contenidor">
-            <h1>titol prinicipal</h1>
-            <p>subtitol</p>
-            <a  class="boto-apuntarse">apuntarse gimnas</a>
-        </div>
-    </header>
+  <div class="barra-superior">
+    <div class="contenidor">
+      <a href="index.html">Inici</a>
+      <a href="productes.html">Productes</a>
+      <a href="contacte.html">Contacte</a>
+    </div>
+  </div>
 
+  <header class="hero">
+    <div class="contenidor">
+      <h1>Gimnasaitor</h1>
+      <p>Gimnas pel mes fort</p>
+      <a class="boto-apuntarse" href="contacte.html">Apunta’t yaa!!!!</a>
+    </div>
+  </header>
+  <div class="contenidor">
+    <h2>Els nostres serveis</h2>
+    <div class="coleccions">
+      <div class="coleccio">
+        <h3>Ioga</h3>
+        <p>Relaxació.</p>
+        <span>Ment en blanc</span>
+      </div>
+      <div class="coleccio">
+        <h3>Pesos</h3>
+        <p>Força</p>
+        <span>Entrenament</span>
+      </div>
+      <div class="coleccio">
+        <h3>Cardio</h3>
+        <p>Energia i salut</p>
+        <span>Benestar</span>
+      </div>
+    </div>
 
+    <div class="beneficis">
+      <div>Enviament 48h</div>
+      <div>Canvis gratuïts</div>
+      <div>Pagament segur</div>
+    </div>
+  </div>
 
+  <footer class="peu">
+    gimnasaitor. Drets tos meus
+    <p>aitor@gmail.com</p>
+  </footer>
 </body>
+</html>
