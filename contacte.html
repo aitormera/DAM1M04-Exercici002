@@ -3,17 +3,66 @@
 <head>
   <title>Contacte</title>
   <link rel="stylesheet" href="global.css">
-   <div class="barra-superior">
-    <div class="contenidor">
-        <a href="index.html">Inici</a>
-        <a href="productes.html">Productes</a>
-        <a href="contacte.html">Contacte</a>
-    </div>
-</div>
+
+  <style>
+    .contacte {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 80px;
+    }
+    .formulari input, .formulari textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+    .formulari button {
+      background-color: #f1c40f;
+      border: none;
+      padding: 10px 20px;
+    }
+    .info {
+      background-color: #eeeeee;
+      padding: 20px;
+    }
+
+   
+  </style>
 </head>
+
 <body>
+  <div class="barra-superior">
+    <div class="contenidor">
+      <a href="index.html">Inici</a>
+      <a href="productes.html">Productes</a>
+      <a href="contacte.html">Contacte</a>
+    </div>
+  </div>
 
+  <div class="contenidor">
+    <h1>Contacta amb nosaltres</h1>
 
+    <div class="contacte">
+      <div class="formulari">
+        <input type="text" placeholder="Nom">
+        <input type="text" placeholder="Correu">
+        <textarea placeholder="Missatge"></textarea>
+        <button>Enviar</button>
+      </div>
 
+      <div class="info">
+        <p><strong>Adreça:</strong> Carrer gimnas, 45</p>
+        <p><strong>Telefon:</strong> 600 123 456</p>
+        <p><strong>Horari:</strong> Dilluns a Divendres 9h - 20h</p>
+      
+      </div>
+    </div>
+  </div>
 
+   <footer class="peu">
+    gimnasaitor. Drets tos meus
+    <p>aitor@gmail.com</p>
+  </footer>
 </body>
+</html>
