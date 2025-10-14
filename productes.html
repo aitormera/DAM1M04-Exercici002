@@ -1,19 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Productes</title>
   <link rel="stylesheet" href="global.css">
-   <div class="barra-superior">
-    <div class="contenidor">
-        <a href="index.html">Inici</a>
-        <a href="productes.html">Productes</a>
-        <a href="contacte.html">Contacte</a>
-    </div>
-</div>
 </head>
+
+<style>
+  main {
+    margin-top: 90px; 
+  }
+
+
+  .filtres {
+    max-width: 1100px;       
+    margin: auto;           
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .filtres span {
+    background-color: #eee;
+    padding: 8px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: inline-block;  
+  }
+
+ 
+  .productes-grid {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 20px;                
+    justify-content: center; 
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  .targeta {
+    flex: 1 1 260px;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .targeta img {
+    height: 180px;
+  }
+
+ 
+</style>
+
 <body>
+  <div class="barra-superior">
+    <div class="contenidor">
+      <a href="index.html">Inici</a>
+      <a href="productes.html">Productes</a>
+      <a href="contacte.html">Contacte</a>
+    </div>
+  </div>
+
+  <main>
+    <section class="filtres">
+      <span>Tots</span>
+      <span>Roba esportiva</span>
+      <span>Accessoris</span>
+      <span>Ofertes</span>
+    </section>
+
+    <section class="productes-grid">
+
+      <div class="targeta">
+        <img src="images\samarreta.jpg" alt="Samarreta fitness">
+        <h3>Samarreta fitness</h3>
+        <p>19,99 €</p>
+      </div>
+
+      <div class="targeta">
+        <img src="images\pantalon.jpg" alt="Pantalons curts">
+        <h3>Pantalons curts</h3>
+        <p>24,99 €</p>
+      </div>
+
+      <div class="targeta">
+        <img src="images\mochila.jpg" alt="Motxilla esportiva">
+        <h3>Motxilla esportiva</h3>
+        <p>34,99 €</p>
+      </div>
 
 
+    </section>
+  </main>
 
+   <footer class="peu">
+    gimnasaitor. Drets tos meus
+    <p>aitor@gmail.com</p>
+  </footer>
 
 </body>
+</html>
